@@ -9,7 +9,7 @@ export default function Help() {
             <div id="Solutions" className="common_pt">
                 <Container className='custom_container4 mx_auto'>
                     <Row className='flex-lg-row flex-column-reverse justify-content-lg-between'>
-                        <Col lg={5} className='mt-5 mt-lg-0'>
+                        <Col lg={5} className='mt-5 mt-lg-0' data-aos="fade-right">
                             <h4 className="fw-semibold text_black mb-2 mb-sm-3 mb-xl-4 lh_121 fs_2xl text-lg-start text-center">What we do</h4>
                             <p className="d-flex align-items-center fw-medium text_blue gap-3 fs_md mb-2 mb-xl-3"><Servicesvg /> We're a Full-Service Agency </p>
                             <p className="fw-normal fs_sm mt-xl-1 text_darkgrey lh_178 mb-3 mb-xl-4 pe-xl-5 opacity_70">We craft digital experiences that bring strategic value. From simple apps to out-of-the-box, custom software, our team can help. Our solutions have an intelligent client interface that provides insight and allows for content manipulation.</p>
@@ -19,7 +19,7 @@ export default function Help() {
                                 <Commonbtn name='Contact Us' />
                             </div>
                         </Col>
-                        <Col lg={6}>
+                        <Col lg={6} data-aos="fade-left">
                             <Image src="/assets/images/png/whatwedo.png" alt="whatwedo" width={903} height={674} className='w-100 h-100 object-fit-contain' />
                         </Col>
                     </Row>

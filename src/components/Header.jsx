@@ -45,9 +45,9 @@ export default function Header() {
                     </div>
                 </Container>
                 <div id='Home' className='header_sec pb-4 mx-auto mt-lg-4'>
-                    <Container className='custom_container1 ms-auto pb-3'>
+                    <Container className='custom_container1 ms-auto pb-xl-3'>
                         <Row className='align-items-center pb-4 flex-lg-row flex-column-reverse'>
-                            <Col lg={6} className='pt-xl-5 mt-xl-5 pt-4'>
+                            <Col lg={6} className='pt-xl-5 mt-xl-5 pt-4' data-aos="fade-right">
                                 <h2 className='fw-semibold fs_3xl text_black mb-4 mb-xxl-5 lh_125 text-lg-start text-center'>Custom <span className='text_pink'>software development</span> from concept to completion
                                     accelerate growth through interactive app development</h2>
                                 <div className='d-flex gap_30 flex-md-row flex-column align-items-center justify-content-lg-start justify-content-center'>
@@ -55,7 +55,7 @@ export default function Header() {
                                     <Link href={'/'} className='fw-medium fs_4xl sm:fs_sm text_black lh_125 gap-3 d-flex'>Try it for free <Rightarrow /> </Link>
                                 </div>
                             </Col>
-                            <Col lg={6} className='col-10 mt-4 mt-lg-0'>
+                            <Col lg={6} className='col-10 mt-4 mt-lg-0' data-aos="fade-left">
                                 <Image src="/assets/images/png/hero-img.webp" alt="hero-img" width={734} height={758} className='w-100 h-100' />
                             </Col>
                         </Row>
