@@ -11,7 +11,7 @@ export default function HowWeHelp() {
                 <Container id="howwehelp" className="custom_container5 mx_auto">
                     <Row className='align-items-center justify-content-between'>
                         <Col lg={6} className='w-full' data-aos="fade-right">
-                            <Image src="/assets/images/png/help.png" alt="help-img" width={577} height={578} className='w-100 h-100' />
+                            <Image src="/assets/images/webp/help.webp" alt="help-img" width={577} height={578} className='w-100 h-100' />
                         </Col>
                         <Col lg={5} className='w-full' data-aos="fade-left">
                             <h4 className="fw-semibold text_black mb-2 mb-sm-3 mb-xl-4 lh_121 fs_2xl ">How we can help</h4>

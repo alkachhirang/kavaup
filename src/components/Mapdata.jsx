@@ -3,22 +3,22 @@ import { Android, Complex, Prototype, UiUx, Web, Facebook, Twitter, Instagram, Y
 
 export const slidedata = [
     {
-        Image: "/assets/images/png/slide1.webp",
+        Image: "/assets/images/webp/slide1.webp",
     },
     {
-        Image: "/assets/images/png/slide2.webp",
+        Image: "/assets/images/webp/slide2.webp",
     },
     {
-        Image: "/assets/images/png/slide3.webp",
+        Image: "/assets/images/webp/slide3.webp",
     },
     {
-        Image: "/assets/images/png/slide4.webp",
+        Image: "/assets/images/webp/slide4.webp",
     },
     {
-        Image: "/assets/images/png/slide5.webp",
+        Image: "/assets/images/webp/slide5.webp",
     },
     {
-        Image: "/assets/images/png/slide6.webp",
+        Image: "/assets/images/webp/slide6.webp",
     },
 ];
 export const helpdata = [

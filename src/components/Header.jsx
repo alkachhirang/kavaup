@@ -56,7 +56,7 @@ export default function Header() {
                                 </div>
                             </Col>
                             <Col lg={6} className='col-10 mt-4 mt-lg-0' data-aos="fade-left">
-                                <Image src="/assets/images/png/hero-img.webp" alt="hero-img" width={734} height={758} className='w-100 h-100' />
+                                <Image src="/assets/images/webp/hero-img.webp" alt="hero-img" width={734} height={758} className='w-100 h-100' />
                             </Col>
                         </Row>
                     </Container>

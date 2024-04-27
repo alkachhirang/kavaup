@@ -9,7 +9,7 @@ export default function Transformation() {
                 <Container className="custom_container6 mx_auto bg_lightpink px-4 px-sm-5 pt-5">
                     <Row className="align-items-center justify-content-between px-xl-5 mt-xl-2 pb-5 pb-lg-0">
                         <Col lg={5} className=" d-flex justify-content-center align-items-center" data-aos="fade-up">
-                            <Image src='/assets/images/png/transformation-img.png' alt='transformation' width={300} height={400} className='w- 100 h- 100' />
+                            <Image src='/assets/images/webp/transformation-img.webp' alt='transformation' width={300} height={400} className='w- 100 h- 100' />
                         </Col>
                         <Col lg={7} className='mt-4 mt-lg-0 ' data-aos="fade-left">
                             <h4 className="fw-semibold text_black fs_xl lh_125 mb-lg-4 mb-2 mt-xl-1 text-lg-start text-center ">Take the Next Step in Your Digital Transformation</h4>

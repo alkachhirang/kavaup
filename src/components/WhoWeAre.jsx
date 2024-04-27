@@ -9,7 +9,7 @@ export default function WhoWeAre() {
                 <Container className="custom_container3 mx_auto pb-xl-5 mb-xl-4">
                     <Row className="align-items-center justify-content-between">
                         <Col lg={6} className="" data-aos="fade-right">
-                            <Image src="/assets/images/png/whoweare.webp" alt="whoweare" width={653} height={490} className='w-100 h-100' />
+                            <Image src="/assets/images/webp/whoweare.webp" alt="whoweare" width={653} height={490} className='w-100 h-100' />
                         </Col>
                         <Col lg={5} className="mt-md-5 mt-4 mt-lg-0" data-aos="fade-left">
                             <h4 className="fw-semibold text_black mb-2 mb-sm-3 mb-xl-4 lh_121 fs_2xl text-lg-start text-center">Who we are  </h4>

@@ -20,7 +20,7 @@ export default function Help() {
                             </div>
                         </Col>
                         <Col lg={6} data-aos="fade-left">
-                            <Image src="/assets/images/png/whatwedo.png" alt="whatwedo" width={903} height={674} className='w-100 h-100 object-fit-contain' />
+                            <Image src="/assets/images/webp/whatwedo.webp" alt="whatwedo" width={903} height={674} className='w-100 h-100 object-fit-contain' />
                         </Col>
                     </Row>
                 </Container>
