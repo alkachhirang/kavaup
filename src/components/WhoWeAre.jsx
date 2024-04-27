@@ -6,8 +6,7 @@ export default function WhoWeAre() {
     return (
         <>
             <div className="common_pt">
-
-                <Container className="custom_container3 mx_auto">
+                <Container className="custom_container3 mx_auto pb-5 mb-4">
                     <Row className="align-items-center justify-content-between">
                         <Col lg={6} className="">
                             <Image src="/assets/images/png/whoweare.webp" alt="whoweare" width={653} height={490} className='w-100 h-100' />
