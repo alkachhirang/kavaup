@@ -76,7 +76,7 @@ export default function Home() {
                 <Transformation />
                 <Footer />
                 <div onClick={() => top()} className={backToTop ? "back_to_top shadow-[0_5px_16px_rgba(76,87,255,1)] overflow-hidden position-fixed d-flex align-items-center justify-content-center cursor_pointer" : "d-none"}>
-                  <Image src='/assets/images/png/backtotop.png' alt='backtotop' width={30} height={30} />
+                  <Image src='/assets/images/webp/backtotop.webp' alt='backtotop' width={30} height={30} />
                 </div>
               </>
             </main>
