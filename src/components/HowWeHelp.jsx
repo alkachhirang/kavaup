@@ -15,6 +15,7 @@ export default function HowWeHelp() {
                         </Col>
                         <Col lg={5} className='w-full'>
                             <h4 className="fw-semibold text_black mb-2 mb-sm-3 mb-xl-4 lh_121 fs_2xl ">How we can help</h4>
+                            <p className='fw-semibold text_black fs_lg lh_134 mb-3'>We Build Scalable Solutions</p>
                             {helpdata.map((help, index) => {
                                 return (
                                     <div key={index} className="">
