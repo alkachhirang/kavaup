@@ -57,10 +57,10 @@ const TrustedPartner = () => {
     };
     return (
         <>
-            <div className="trusted_padding">
+            <div className="common_pt">
                 <Container className="custom_container2 mx-auto">
-                    <h3 className='fw-medium text_black fs_lg text-center '>Our Trusted Partners</h3>
-                    <Slider className="mt-5" {...settings}>
+                    <h3 className='fw-medium text_black fs_lg text-center lh_142 '>Our Trusted Partners</h3>
+                    <Slider className="mt-sm-5 mt-4" {...settings}>
                         {slidedata.map((slides, e) => {
                             return (
                                 <div key={e} className="px-6">
