@@ -7,7 +7,7 @@ import Commonbtn from "./CommonBtn";
 export default function HowWeHelp() {
     return (
         <>
-            <div className="common_pt">
+            <div className="py_howhelp">
                 <Container id="howwehelp" className="custom_container5 mx_auto">
                     <Row className='align-items-center justify-content-between'>
                         <Col lg={6} className='w-full'>

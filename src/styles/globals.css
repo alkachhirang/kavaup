@@ -15,7 +15,6 @@
     --font-2xl: 48px;
     --font-3xl: 56px;
     --font-4xl: 16px;
-
 }
 
 .fs_xs {
@@ -220,8 +219,8 @@
 }
 
 .py_process {
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 157px;
+    padding-bottom: 157px;
     margin-top: 140px;
 }
 
@@ -252,6 +251,10 @@
 
 .lh_125 {
     line-height: 125%;
+}
+.py_howhelp{
+    padding-top: 120px;
+    padding-bottom: 110px;
 }
 
 /*----------------------Footer------------------------ */
@@ -487,15 +490,7 @@ svg.footericon:hover path.iconcolor {
 
 @media (max-width:1440px) {
     :root {
-        /* --font-xs: 12px;
-            --font-sm: 18px;
-            --font-md: 20px;
-            --font-lg: 24px;
-            --font-xl: 40px;
-            --font-2xl: 48px; */
         --font-3xl: 48px !important;
-        /* --font-4xl: 16px; */
-
     }
 
     .custom_container3 {
@@ -505,14 +500,10 @@ svg.footericon:hover path.iconcolor {
 
 @media (max-width:1200px) {
     :root {
-        --font-xs: 12px;
         --font-sm: 17px !important;
         --font-md: 17px !important;
-        --font-lg: 24px;
-        --font-xl: 40px;
         --font-2xl: 43px !important;
         --font-3xl: 38px !important;
-        --font-4xl: 16px;
     }
 
     .lh_160 {
@@ -527,14 +518,8 @@ svg.footericon:hover path.iconcolor {
 
 @media (max-width:768px) {
     :root {
-        --font-xs: 12px;
-        --font-sm: 18px;
-        --font-md: 20px;
-        --font-lg: 24px;
-        --font-xl: 33px;
         --font-2xl: 44px !important;
         --font-3xl: 24px !important;
-        --font-4xl: 16px;
     }
 
     .common_pt {
@@ -554,14 +539,10 @@ svg.footericon:hover path.iconcolor {
 
 @media (max-width:576px) {
     :root {
-        --font-xs: 12px;
         --font-sm: 14px !important;
         --font-md: 16px !important;
-        --font-lg: 24px;
-        --font-xl: 21px;
         --font-2xl: 34px !important;
         --font-3xl: 24px !important;
-        --font-4xl: 16px;
     }
 
     .mw_95 {
