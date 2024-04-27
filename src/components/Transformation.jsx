@@ -5,7 +5,7 @@ import Commonbtn from "./CommonBtn";
 export default function Transformation() {
     return (
         <>
-            <div id='Mobile' className="common_pt">
+            <div id='Mobile'>
                 <Container className="custom_container6 mx_auto bg_lightpink px-4 px-sm-5 pt-5">
                     <Row className="align-items-center justify-content-between px-xl-5 mt-xl-2 pb-5 pb-lg-0">
                         <Col lg={5} className=" d-flex justify-content-center align-items-center ">
