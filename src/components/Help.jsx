@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Help() {
     return (
         <>
-            <div id="Solutions" className="common_pt">
+            <div className="common_pt">
                 <Container className='custom_container4 mx_auto'>
                     <Row className='flex-lg-row flex-column-reverse justify-content-lg-between'>
                         <Col lg={5} className='mt-5 mt-lg-0' data-aos="fade-right">
