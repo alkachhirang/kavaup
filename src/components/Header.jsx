@@ -44,7 +44,7 @@ export default function Header() {
                         </div>
                     </div>
                 </Container>
-                <div id='Home' className='header_sec mx-auto mt-lg-4'>
+                <div id='Home' className='header_sec pb-4 mx-auto mt-lg-4'>
                     <Container className='custom_container1 ms-auto pb-3'>
                         <Row className='align-items-center pb-4 flex-lg-row flex-column-reverse'>
                             <Col lg={6} className='pt-xl-5 mt-xl-5 pt-4'>
