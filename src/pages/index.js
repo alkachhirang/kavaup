@@ -16,6 +16,7 @@ import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
+import Preloader from '@/components/Preloader';
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -45,6 +46,13 @@ export default function Home() {
       }
     });
   }, []);
+  const [screenLoading, setScreenLoading] = useState(false);
+  useEffect(() => {
+    setScreenLoading(true);
+    setTimeout(() => {
+      setScreenLoading(false);
+    }, 3500);
+  }, []);
   return (
     <>
       <Head>
@@ -53,21 +61,29 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${poppins.className} overflow-hidden`}>
-        <>
-          <Header />
-          <TrustedPartner />
-          <WhoWeAre />
-          <Help />
-          <OurProcess />
-          <HowWeHelp />
-          <Transformation />
-          <Footer />
-          <div onClick={() => top()} className={backToTop ? "back_to_top shadow-[0_5px_16px_rgba(76,87,255,1)] overflow-hidden position-fixed d-flex align-items-center justify-content-center cursor_pointer" : "d-none"}>
-            <Image src='/assets/images/png/backtotop.png' alt='backtotop' width={30} height={30} />
-          </div>
-        </>
-      </main>
+      <div>
+        {screenLoading ? (
+         <Preloader/>
+        ) : (
+            <main className={`${poppins.className} overflow-hidden`}>
+              <>
+                <Header />
+                <TrustedPartner />
+                <WhoWeAre />
+                <Help />
+                <OurProcess />
+                <HowWeHelp />
+                <Transformation />
+                <Footer />
+                <div onClick={() => top()} className={backToTop ? "back_to_top shadow-[0_5px_16px_rgba(76,87,255,1)] overflow-hidden position-fixed d-flex align-items-center justify-content-center cursor_pointer" : "d-none"}>
+                  <Image src='/assets/images/png/backtotop.png' alt='backtotop' width={30} height={30} />
+                </div>
+              </>
+            </main>
+        )
+        }
+      </div >
+
     </>
   );
 }
