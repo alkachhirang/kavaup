@@ -47,7 +47,7 @@ export default function Header() {
                 <div id='Home' className='header_sec mx-auto mt-lg-4'>
                     <Container className='custom_container1 ms-auto pb-3'>
                         <Row className='align-items-center pb-4 flex-lg-row flex-column-reverse'>
-                            <Col lg={6} className='pt-xl-5 pt-4'>
+                            <Col lg={6} className='pt-xl-5 mt-xl-5 pt-4'>
                                 <h2 className='fw-semibold fs_3xl text_black mb-4 mb-xxl-5 lh_125 text-lg-start text-center'>Custom <span className='text_pink'>software development</span> from concept to completion
                                     accelerate growth through interactive app development</h2>
                                 <div className='d-flex gap_30 flex-md-row flex-column align-items-center justify-content-lg-start justify-content-center'>
