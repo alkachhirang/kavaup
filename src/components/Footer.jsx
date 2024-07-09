@@ -77,7 +77,7 @@ export default function Footer() {
                         <Link href={'/'} className=''>
                             <Footerlogo />
                         </Link>
-                        <p className="fs_sm fw-normal text_lightgrey lh_125">
+                        <p className="fs_sm fw-normal text_lightgrey lh_125 mb-0">
                             Copyright ©  {new Date().getFullYear()} kava up,llc
                         </p>
                     </div>
